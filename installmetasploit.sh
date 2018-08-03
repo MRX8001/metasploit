@@ -34,7 +34,10 @@ fi
 if [ "$INSTALL = 5" ];then
 mv -v /data/data/com.termux/files/home/Metasploits/metasploit.sh /data/data/com.termux/files/home
 fi
-if [ "$INSTALL = 6" ];then 
+if [ "INSTALL = 6" ];then
+#sair do Metasploit
+cd ..
+if [ "$INSTALL = 7" ];then 
 echo "\n\n\033[1;36mInstalar o metasploit ...";sleep 2
 ./metasploit.sh
 echo "\n\n\033[1;36mprocedimento bem sucedido!";sleep 2
