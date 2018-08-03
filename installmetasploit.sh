@@ -37,6 +37,7 @@ fi
 if [ "INSTALL = 6" ];then
 #sair do Metasploit
 cd ..
+fi
 if [ "$INSTALL = 7" ];then 
 echo "\n\n\033[1;36mInstalar o metasploit ...";sleep 2
 ./metasploit.sh
