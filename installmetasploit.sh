@@ -32,7 +32,7 @@ chmod +x metasploit.sh
 echo "procedimsnto bem sucedido"
 fi
 if [ "$INSTALL = 5" ];then
-mv -v /data/data/com.termux/files/home/metasploit/metasploit.sh /data/data/com.termux/files/home
+mv -v /data/data/com.termux/files/home/Metasploits/metasploit.sh /data/data/com.termux/files/home
 fi
 if [ "$INSTALL = 6" ];then 
 echo "\n\n\033[1;36mInstalar o metasploit ...";sleep 2
