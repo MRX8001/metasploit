@@ -34,7 +34,10 @@ fi
 if [ "$INSTALL = 5" ];then
 mv -v /data/data/com.termux/files/home/Metasploits/metasploit.sh /data/data/com.termux/files/home
 fi
-if [ "INSTALL = 6" ];then
+if [ "$INSTALL = 6" ];then
+#removendo a pasta do Metasploits
+rm -rf Metasploits
+if [ "INSTALL = 7" ];then
 #sair do Metasploit
 cd ..
 fi
