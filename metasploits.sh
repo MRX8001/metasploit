@@ -24,8 +24,7 @@ if [ "$INSTALL = 4" ];then
 chmod +x metasploit.sh
 fi
 if [ "$INSTALL = 5" ];then
-mv -v 
-/data/data/com.termux/files/home/Metasploits/metasploits.sh /data/data/com.termux/files/home
+mv -v /data/data/com.termux/files/home/Metasploits/metasploits.sh /data/data/com.termux/files/home
 fi
 if [ "$INSTALL = 6" ];then
 #removendo a pasta do Metasploits
