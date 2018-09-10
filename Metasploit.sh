@@ -6,9 +6,12 @@
 clear
 #
 #
-#Escrever Metasploit
-figlet Metasploit
-#
+__  __      _                  _       _ _
+|  \/  | ___| |_ __ _ ___ _ __ | | ___ (_) |_
+| |\/| |/ _ \ __/ _` / __| '_ \| |/ _ \| | __|
+| |  | |  __/ || (_| \__ \ |_) | | (_) | | |_
+|_|  |_|\___|\__\__,_|___/ .__/|_|\___/|_|\__|
+                         |_|
 #etapas para instalar o metasploit
 ##
 if [ "$INSTALL = 1" ];then
