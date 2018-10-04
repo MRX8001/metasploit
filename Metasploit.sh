@@ -27,7 +27,7 @@ fi
 if [ "$INSTALL = 6" ];then
 #removendo a pasta do Metasploits
 cd ..
-rm -rf Metasploits
+rm -rf Metasploit
 fi
 if [ "$INSTALL = 7" ];then 
 ./metasploit.sh
